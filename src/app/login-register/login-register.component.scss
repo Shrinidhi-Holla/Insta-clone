@@ -1,0 +1,111 @@
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.login-image{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+   
+}
+// .login-inner{
+//     position: absolute;
+//     height: 63vh;
+//     top: 110px;
+//     left: 350px
+// }
+.login-form{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid rgba(128, 128, 128, 0.356);
+    width: 300px;
+    height: 100%;
+    padding: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    .header{
+    font-family: "Gwendolyn";
+    font-size: 50px;
+    font-weight: bold;
+    }
+    .form-fields{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .inputfields{
+            width: 250px;
+            height: 15px;
+            background-color: rgba(220, 220, 220, 0.158);
+            border: 1px solid rgba(0, 0, 0, 0.315);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .login-btn{
+        width:90%;
+        padding: 10px;
+        background-color: rgb(69, 120, 230);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        }
+        
+    }
+    
+    
+}
+.login-form-2{
+    border: 0.5px solid rgba(128, 128, 128, 0.356);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    .create-account-btn{
+        background-color: transparent;
+        border: none;
+        color: rgb(31, 68, 231);
+        font-weight: 700
+    }
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0.185);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 120px;
+    background: rgb(0, 0, 0, 0.185);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
